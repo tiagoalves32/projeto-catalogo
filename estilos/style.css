@@ -39,6 +39,16 @@
    width: 50px;
    margin: 10px;
    border-radius: 50%;
+   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.342);
+   box-sizing: border-box;
+
+ }
+
+ #editoras img:hover {
+   border: 2px solid black;
+   transform: translate(-3px, -3px);
+   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.308);
+   transition: transform 0.5s, border 0.5s;
  }
 
  #editoras {
